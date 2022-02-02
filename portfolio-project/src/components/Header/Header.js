@@ -1,11 +1,17 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Nav from "./Nav/Nav";
 import Banner from "./Banner/Banner";
 import "./Header.css";
 import { FaInstagram, FaFacebookF, FaLinkedin, FaGithub } from "react-icons/fa";
+import {SetBackgroundImageToWindowHeight} from "./init";
 
 function Header({ data }) {
   let name, occupation, description, city, networks;
+
+  useEffect(() => {
+    SetBackgroundImageToWindowHeight();
+  }, );
+
 
   if (data) {
     name = data.name;
@@ -27,7 +33,7 @@ function Header({ data }) {
   }
 
   return (
-    <header className="header">
+    <header className="header" id="home">
       <Nav />
       <Banner 
         name={name}

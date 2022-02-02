@@ -1,0 +1,18 @@
+::-webkit-scrollbar{
+    width: 0.9rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(41, 45, 33, 1);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba( 180, 165, 150, 0.8);
+    /* background-color: rgba(250,148,46, 0.5)   ; */
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba( 180, 165, 150, 0.4);
+    backdrop-filter: blur(1rem);
+}
+
