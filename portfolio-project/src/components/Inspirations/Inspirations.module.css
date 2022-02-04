@@ -1,0 +1,37 @@
+.inspirations_container{
+    background: url("/public/images/code-image.png") no-repeat center center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-attachment: fixed;
+
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.inspirations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  padding-block: 5%;
+  backdrop-filter: blur(0.2rem);
+}
+
+.inspirations h1 {
+  font-size: 1.2rem;
+  font-family: "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #c6c7c7;
+}
+
+.inspiration_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}

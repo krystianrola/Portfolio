@@ -2,9 +2,12 @@
     display: inline-block;
     vertical-align: middle;
     margin: 0 auto;
-    width: 85%;
+    width: 100%;
+    padding-top: 54px;
     padding-bottom: 30px;
     text-align: center;
+    background:rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.2rem);
 }
 .banner_text {
   width: 100%;

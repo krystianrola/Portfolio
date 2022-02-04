@@ -7,6 +7,7 @@ import Inspirations from "../components/Inspirations/Inspirations";
 import Portfolio from "../components/Portfolio/Portfolio";
 import Resume from "../components/Resume/Resume";
 import "./App.css";
+// import firebase from "../firebase";
 
 function App() {
   const [resumeData, setResumeData] = useState({});
@@ -16,6 +17,7 @@ function App() {
       .then((res) => res.json())
       .then((data) => setResumeData(data));
   }, []);
+  
 
   return (
     <div className="app">

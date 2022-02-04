@@ -1,18 +1,15 @@
 import React from "react";
 import "./About.css";
 import { FiDownload } from "react-icons/fi";
+import ProfilePicture from "../ProfilePicture/ProfilePicture";
 
 function About({ data }) {
-  let name, profilepic, bio, street, city, state, zip, phone, email, resumeDownload;
+  let name, profilepic, bio, phone, email, resumeDownload;
 
   if (data) {
     name = data.name;
     profilepic = "images/" + data.image;
     bio = data.bio;
-    street = data.address.street;
-    city = data.address.city;
-    state = data.address.state;
-    zip = data.address.zip;
     phone = data.phone;
     email = data.email;
     resumeDownload = data.resumedownload;
@@ -21,13 +18,7 @@ function About({ data }) {
   return (
     <section id="about">
       <div className="about_content">
-        <div className="profile_pic_content">
-          <img
-            src={profilepic}
-            alt="Krystian's profile pic"
-            className="profile_pic"
-          />
-        </div>
+        <ProfilePicture imageURL={profilepic} name={"Krystian's profile pic"} />
         <div className="description_content">
           <h2> About Me </h2>
           <p className="discription"> {bio} </p>
@@ -38,15 +29,10 @@ function About({ data }) {
               <p className="address">
                 <span>{name}</span>
                 <br />
-                <span>
-                  {street}
-                  <br />
-                  {city} {state}, {zip}
-                </span>
+                <span>{email}</span>
                 <br />
                 <span>{phone}</span>
-                <br />
-                <span>{email}</span>
+                
               </p>
             </div>
             <div className="download_content">

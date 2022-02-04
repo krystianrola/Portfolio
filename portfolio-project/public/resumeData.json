@@ -1,116 +1,136 @@
 {
-    "main": {
-        "name": "Krystian Rola",
-        "occupation": "Web Developer In The Making",
-        "description": "Found my passion in Web Development.",
-        "image" : "profilePic.jpg",
-        "bio" : "Hi there! My name is Krystian. I've been learning code for the past 5 years now. Along this journey, I realized my passion lies in Web development. As an upcoming Web Developer, I am more than ready to test my skills in the field and eager to learn new things. ",
-        "contactmessage" : "Be sure to contact me with any questions.",
-        "email" : "krystianrola96@gmail.com",
-        "phone" : "+32(0)498/28.99.37",
-        "address" : {
-            "street" : "Huikstraat 9",
-            "city" : "Antwerp",
-            "state" : "Antwerp",
-            "zip" : "2000"
-        },
-        "website" : "",
-        "resume_download" : "",
-        "socials" : [
-            {
-                "name": "Facebook",
-                "url": "https://www.facebook.com/krystian.rola.1"
-            },
-            {
-                "name": "LinkedIn",
-                "url": "https://www.linkedin.com/in/krystian-rola-191810109/"
-            },
-            {
-                "name": "Instagram",
-                "url": "https://www.instagram.com/krystianrola/"
-            },
-            {
-                "name": "GitHub",
-                "url": "https://github.com/krystianrola"
-            }
-        ],
-        "quote": "Wit beyond measure is a man's greatest treasure.",
-        "author": "Rowena Ravenclaw"
-    },
-    "resume":{
-        "skillmessage": "My Programming Language Proficiency",
-        "education" : [
-            {
-              "school": " Artesis Plantijn College Antwerp - BE",
-              "degree": "Ongoing",
-              "graduated": "Ongoing"
-            }
-        ],
-        "work": [
-            {
-              "company": "",
-              "title": "",
-              "years": "",
-              "description": ""
-            }
-        ],
-        "skills": [
-            {
-              "name": "ReactJs",
-              "level": "75%"
-            },
-            {
-              "name": "HTML",
-              "level": "85%"
-            },
-            {
-              "name": "CSS",
-              "level": "70%"
-            },
-            {
-              "name": "TailwindCSS",
-              "level": "50%"
-            },
-            {
-              "name": "JavaScript",
-              "level": "35%"
-            },
-            {
-              "name": "TypeScript",
-              "level": "50%"
-            }
-        ]
-    },
-    "portfolio": {
-        "projects": [
+  "main": {
+      "name": "Krystian Rola",
+      "occupation": "Web Developer In The Making",
+      "description": "Found my passion in Web Development.",
+      "image" : "profilePic.jpg",
+      "bio" : "Hi there! My name is Krystian. I've been learning code for the past 5 years now. Along this journey, I realized my passion lies in Web development. As an upcoming Web Developer, I am more than ready to test my skills in the field and eager to learn new things. ",
+      "contactmessage" : "Be sure to contact me with any questions.",
+      "email" : "krystianrola96@gmail.com",
+      "phone" : "+32 (0) 498/28.99.37",
+      "address" : {
+          "city" : "Antwerp"
+      },
+      "website" : "",
+      "resume_download" : "",
+      "socials" : [
           {
-            "title": "Netflix Remake Build (React JS)",
-            "category": "",
-            "image": "",
-            "url": "https://github.com/krystianrola/ReactPractice/tree/main/netflix-remake"
+            "name": "Facebook",
+            "url": "https://www.facebook.com/krystian.rola.1"
           },
           {
-            "title": "Portfolio Project (React JS)",
-            "category": "",
-            "image": "",
-            "url": "https://github.com/krystianrola/Portfolio"
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/krystian-rola-191810109/"
+          },
+          {
+            "name": "Instagram",
+            "url": "https://www.instagram.com/krystianrola/"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com/krystianrola"
           }
-        ]
-    },
-    "inspirations": {
-        "inspirations": [
-          {
-            "name": "Kevin Powell",
-            "url": "https://www.youtube.com/kepowob"
-          },
-          {
-            "name": "Kyle From Web Dev Simplified",
-            "url": "https://www.youtube.com/c/WebDevSimplified"
-          },
-          {
-            "name": "Sonny Sangha",
-            "url": "https://www.youtube.com/c/SonnySangha"
-          }
-        ]
+      ],
+      "quote": "Wit beyond measure is a man's greatest treasure.",
+      "author": "Rowena Ravenclaw"
+  },
+  "resume":{
+    "skillmessage": "My Programming Language Proficiency",
+    "education" : [
+      {
+        "school": " Artesis Plantijn College Antwerp - BE",
+        "degree": "Associate's Degree, Computer Science",
+        "graduated": " June 2022 <Ongoing />",
+        "description": ""
       }
+    ],
+    "work": [
+      {
+        "company": "Upthrust",
+        "title": "Intern",
+        "years": "2022",
+        "description": "Learning internship of 15 weeks."
+      },
+      {
+        "company": "Test, Inc",
+        "title": "Senior Test Web Developer",
+        "years": "2020 - 2022",
+        "description": "Tests"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "HTML",
+        "level": "85%"
+      },
+      {
+        "name": "CSS",
+        "level": "70%"
+      },
+      {
+        "name": "TailwindCSS",
+        "level": "35%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "25%"
+      },
+      {
+        "name": "TypeScript",
+        "level": "40%"
+      },
+      {
+        "name": "ASP.NET",
+        "level": "20%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Netflix Project (ReactJS)",
+        "category": "Remade",
+        "thumbsnail": "netflix/re-netflix-homescreen.png",
+        "image": [
+          "netflix/re-netflix-homescreen.png",
+          "netflix/re-netflix-loginscreen.png",
+          "netflix/re-netflix-profilescreen.png"
+        ],
+        "url": "https://github.com/krystianrola/ReactPractice/tree/main/netflix-remake"
+      },
+      {
+        "title": "Portfolio Project (ReactJS)",
+        "category": "Original (Based On Template)",
+        "thumbsnail": "resume/resume-homescreen.png",
+        "image": [
+          "resume/resume-contactscreen.png",
+          "resume/resume-homescreen.png"
+        ],
+        "url": "https://github.com/krystianrola/Portfolio"
+      }
+    ]
+  },
+  "inspirations": {
+    "inspirations": [
+      {
+        "name": "Kevin Powell",
+        "image": "https://yt3.ggpht.com/ytc/AKedOLT1tLx7BgAa7_SHaXE0hDRjQu1BRihsEDZ3lmUUcg=s900-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/kepowob"
+      },
+      {
+        "name": "Kyle From Web Dev Simplified",
+        "image": "https://yt3.ggpht.com/ytc/AKedOLQpvSjzSCSo8ZKCjBZS7TRX7omb_kyQirh2zgEY=s900-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/c/WebDevSimplified"
+      },
+      {
+        "name": "Sonny Sangha",
+        "image": "https://yt3.ggpht.com/FjeN785fVWx0Pr6xCbwPhhq8hHj_gocc3FygDXYDEQgp2gE_FQzRNsFHFAjQ3oE-VJaeGR1a=s900-c-k-c0x00ffffff-no-rj",
+        "url": "https://www.youtube.com/c/SonnySangha"
+      }
+    ]
+  }
 }

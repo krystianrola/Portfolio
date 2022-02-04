@@ -1,0 +1,123 @@
+.resume {
+  background: #fff;
+  padding-top: 90px;
+  padding-bottom: 72px;
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  max-width: 1020px;
+}
+.resume h1 {
+  font-size: 1.2rem;
+  font-family: "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.resume h1 span {
+  border-bottom: 2px solid rgba(250, 148, 46, 255);
+  padding-bottom: 6px;
+}
+
+.education,
+.work,
+.skills {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  min-height: 180px;
+  margin-bottom: 48px;
+}
+.education,
+.work {
+    border-bottom: 1px solid #e8e8e8;
+}
+.resume_item_header {
+  flex: 2;
+  padding-top: 9px;
+  padding-left: 30px;
+}
+
+.education h3,
+.work h3 {
+    font-size: 1.4rem;
+    font-family: 'opensans-bold', sans-serif;
+ }
+
+.education_content,
+.work_content,
+.skills_content {
+  flex: 5;
+  padding: 0 10px 20px 24px;
+}
+.work_content > div:first-child{
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.skills_content_message {
+    color: #838C95;
+    font-size: 0.9rem;
+  font-family: "opensans-regular", serif;
+  margin-bottom: 30px;
+}
+
+.skills_content_bars {
+  width: 95%;
+  float: left;
+  padding: 0;
+  text-align: left;
+}
+.skills_content_bars ul {
+  margin-top: 36px;
+  list-style: none;
+  padding-left: 0;
+}
+.skills_content_bars li {
+  position: relative;
+  margin-bottom: 60px;
+  background: #ccc;
+  height: 42px;
+  border-radius: 3px;
+}
+.skills_content_bars li p {
+  font-size: 0.9rem;
+  font-family: "opensans-bold", sans-serif;
+  color: #313131;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  position: relative;
+  top: -36px;
+}
+
+.skills_content_bars .bar-expand {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding-right: 24px;
+  background: #313131;
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 3px 0 0 3px;
+}
+
+.resume .info, 
+.resume .work_description {
+  font-size: 1rem;
+  font-family: "opensans-regular", serif;
+  color: #6e7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
+}
+.resume .info span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.resume .title {
+  font-size: 1.1rem;
+  font-family: "librebaskerville-italic", sans-serif;
+  margin-top: 6px;
+}

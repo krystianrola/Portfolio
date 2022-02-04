@@ -4,7 +4,8 @@
   overflow: hidden;
 }
 #about h2 {
-  font: 22px/30px "opensans-bold", sans-serif;
+  font-size: 1.7rem;
+  font-family: "opensans-bold", sans-serif;
   color: #fff;
   margin-bottom: 12px;
 }
@@ -13,18 +14,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.profile_pic_content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 66px;
-  padding-bottom: 66px;
-}
-.profile_pic {
-  width: 50%;
-  height: 50%;
-  border-radius: 300px;
 }
 .description_content {
   padding: 25px 10px 10px 10px;
@@ -67,14 +56,15 @@
   font-size: 20px;
   font-family: "opensans-bold", sans-serif;
   padding: 10px;
-  border-radius: 4px;
+  border-radius: 3px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 45px;
+  width: 250px;
+  height: 60px;
 
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 .btn_download:hover {
   background: #fff;

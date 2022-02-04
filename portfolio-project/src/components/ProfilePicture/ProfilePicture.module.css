@@ -1,0 +1,12 @@
+.profile_pic_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 66px;
+  padding-bottom: 66px;
+}
+.profile_pic {
+  width: 50%;
+  height: 50%;
+  border-radius: 300px;
+}
